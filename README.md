@@ -22,7 +22,7 @@ Requirements:
 - :heavy_check_mark: [Gulp-CLI](https://gulpjs.com/) installed
 
 1. Clone project:
-   * `> git clone blabla`
+   * `> git clone git@github.com:hackherlin/gulpfile.js-example.git`
   
 2. Navigate into project:
    * `> cd project`
