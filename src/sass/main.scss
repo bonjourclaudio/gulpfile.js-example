@@ -1,0 +1,70 @@
+$gradient-one: #55d8f6;
+$gradient-two: #6be8c8;
+$gradient-three: #22a2f5;
+$font-primary: #ffffff;
+$color-accent: rgb(177, 241, 243);
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  color: $font-primary;
+
+  background: linear-gradient(
+    270deg,
+    $gradient-one,
+    $gradient-two,
+    $gradient-three
+  );
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+hr {
+  background: $color-accent;
+  height: 2px;
+  border: none;
+  outline: none;
+  margin: 3em 3em 5em;
+}
+
+a {
+  color: $color-accent;
+  text-decoration: none;
+}
